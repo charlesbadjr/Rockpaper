@@ -1,0 +1,66 @@
+
+
+.ban {
+    text-align: center;
+    font-size: 2em;
+
+}
+
+#ban {
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+.ScoreList{
+font-size: 2em;
+text-align: right;
+padding: 20px;
+
+}
+
+li:hover{
+
+  color: black;
+  font-weight: bolder;
+}
+
+#paperImg {
+    height: 80%;
+    width: 60%;
+}
+
+.imagesContainer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.button {
+  height: 20%;
+  width: 30%;
+}
+.results {
+    height: 300px;
+    width: 100%;
+    border: black, 2px;
+    border-radius: 2em;
+    padding: 5px;
+    text-align: center;
+}
+
+.imgElt {
+    height: 150px;
+    
+}
+
+#chickenDinner {
+text-align: center;
+font-size: 2em;
+color: black;
+}
+
+.hidden {
+    visibility: hidden;
+}
+

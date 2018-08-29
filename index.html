@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Rock Paper Scissors </title>
+        <meta charset="utf-8">
+      <link rel="stylesheet" href="./design.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+    </head>
+
+        <body>
+            <div class="ban">
+              <h1 id="ban"> Childhood Argument Winner </h1>
+             </div> 
+         <div class="ScoreList">
+             <ul class="scoreBoard" alt="scoreBoard">
+                  <li id="winsT"> Wins: 0</li>
+                  <li id="lossT"> Loss: 0</li>
+                  <li id="partMedT"> Participacion medal: 0</li>
+              </ul>
+            </div>
+          <div class="imagesContainer">
+             <div class="images" id="rock1"> 
+                 <img src="./images/Rock.png" alt="Dwayne the Rock Johnson">
+                 <br>
+                 <button type="button" class="button" id="rock_button" alt="click to choose button">Rock Selection</button>
+             </div>
+
+             <div class="images" id="paper1">
+                 <img src="./images/paper.png" alt="A simple treasure map paper" id="paperImg">
+                 <br>
+                 <button type="button" class="button" id="paper_button" alt="click to choose button"> Paper Selection</button>
+             </div>
+
+             <div class="images" id="scissors1"> 
+                 <img src="./images/Scissorhands.png" alt="Edward Scissorhands">
+                 <br>
+                 <button type="button" class="button" id="scissor_button" alt="click to choose button"> Scissor Selection </button>
+            </div>
+          </div>
+         <section class="results">
+         <h2 id="ban"> Results: </h2>
+          <img src="./images/Rock.png" id="rock" class="imgElt hidden" /> 
+          <img id="paper" class="imgElt hidden" src="./images/paper.png"/>  
+          <img id="scissors" class="imgElt hidden" src="./images/Scissorhands.png"/>
+         <p id="chickenDinner">  </p>
+         </section>
+
+            <div class="ScoreList">
+              <ul class="scoreBoard">
+                <li id="wins"> Wins: 0</li>
+                <li id="loss"> Loss: 0</li>
+                <li id="partMed"> Participacion medal: 0</li>
+              </ul>
+             </div>
+        <script src="cogwheel.js">  </script>
+    </body>
+</html>
